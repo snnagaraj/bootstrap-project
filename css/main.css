@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+}
+.left-side{
+    margin-left: 600px;
+}
+.nav-item a{
+    font-size: 18px;
+}
+.tittle{
+    z-index: auto;
+}
+nav{
+    position: fixed;
+}
+.bgimg{
+    background: url(../hero-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    background-attachment: fixed;
+}
+.header-flex{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 605px;
+    text-align: center;
+}
+.header-flex h5{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 200px;
+    font-family: "Nunito", sans-serif;
+}
+.header-flex h1{
+    color: white;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+}
+.header-flex p{
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+.header-flex button{
+    border-radius: 20px;
+    color: #fff;
+    border-color: #fff;
+    width: 150px;
+}
+
+
+/* about start */
+
+.about-head{
+    text-align: center;
+}
+.about-head h4{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    line-height: 1;
+    margin: 0;
+    background: #fdeff2;
+    color: #e43c5c;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.about-head h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+}
+.about-head span{
+    color:#e43c5c;
+}
+.about-head p{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-weight: 600;
+}
+
+
+/* service */
+.ser-box{
+    height: 300px;
+}
+.box1{
+    color: yellow;
+}
+.box2{
+    color: blue;
+}
+.box3{
+    color: red;
+}
+.box4{
+    color: violet;
+}
+.box5{
+    color: blue;
+}
+.box6{
+    color: #e43c5c;
+}
+.box7{
+    color: aqua;
+}
+.box8{
+    color: blue;
+}
+.box9{
+    color: brown;
+}
+.box10{
+    color: #e43c5c;
+}
+.box11{
+    color: orange;
+}
+.box12{
+    color: green;
+}
+.fs-5:hover{
+    color: red;
+}
+
+
+/* call to action */
+.call-img{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url(../images/cta-bg.jpg) center center;
+    background-size: cover;
+    padding: 150px 0;
+    background-attachment: fixed;
+}
+.action{
+    position: relative;
+}
+.action-flex{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 70px;
+}
+.action-flex button{
+    border-color: white;
+}
+
+.legal{
+    background: #ced4da;
+}
